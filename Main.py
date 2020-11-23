@@ -3,8 +3,9 @@ from flask import Flask, request
 import telebot
 import os
 
-searcher = WolframSearcher('AKGAVW-QYGPGY96AQ')
-TOKEN = "1400971205:AAE3J8h2ku1ZmNbqpklnDjAYGBX0VX1EsyE"
+wolframTojen = ''
+searcher = WolframSearcher(WolframTOken)
+TOKEN = ''
 bot = telebot.TeleBot(token=TOKEN)
 server = Flask(__name__)
 
